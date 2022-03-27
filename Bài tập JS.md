@@ -29,8 +29,7 @@
 
 -   Chuỗi trả về có dạng: "address.number address.street, address.ward, address.district, address.city"
 -   Lưu ý object address không phải lúc nào cũng có đầy đủ các thông tin trên.
-
--   Ví dụ:
+-   **Ví dụ:**
 
 ```js
 getDisplayedAddress({
