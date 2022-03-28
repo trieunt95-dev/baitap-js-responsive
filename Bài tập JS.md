@@ -39,13 +39,13 @@ getDisplayedAddress({
     district: '10 District',
     city: 'HCMC',
 });
-// should return '666 3/2, Ward 11, 10 District, HCMC'
+// should return '666 3/2 Street, Ward 11, 10 District, HCMC'
 
 getDisplayedAddress({
     street: '3/2',
     district: '10 District',
 });
-// should return 'Nguyen Cong Tru, 10 District'
+// should return '3/2 Street, 10 District'
 ```
 
 ##### #5 - Viết hàm fillPath(path, params) để thay thế các chuỗi params trong path bằng các giá trị tương ứng trong object params.
